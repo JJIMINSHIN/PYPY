@@ -37,3 +37,10 @@ def print_value_by_key(my_dict, key):
 	print(my_dict[key])
 
 print_value_by_key(my_dict, "10/26")
+
+#226
+
+def print_5xn(string):
+	chunk_num = int(len(line) / 5)
+    	for x in range(chunk_num + 1) :
+        	print(line[x * 5: x * 5 + 5])
