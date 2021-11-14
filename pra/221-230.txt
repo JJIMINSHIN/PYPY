@@ -40,10 +40,16 @@ print_value_by_key(my_dict, "10/26")
 
 #226
 
-def print_5xn(string):
-	chunk_num = int(len(line) / 5)
-    	for x in range(chunk_num + 1) :
-        	print(line[x * 5: x * 5 + 5])
+def print_5xn(mystr):
+	times = len(mystr)/5
+	times = int(times)
+	
+	
+	for i in range(times):
+		mystr[5*i: 5*i+5] #[0:5], [5:10]
+		
+pritn_5xn("아이엠어보이유알어걸1")
+
 		
 		
 #227 
