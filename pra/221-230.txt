@@ -63,3 +63,27 @@ def print_mxn(line, num):
 def calc_monthly_salary(annual_pay) :
     monthly_pay = int(annual_pay / 12)
     return monthly_pay
+    
+#229
+아래 코드의 실행 결과를 예측하라.
+
+def my_print (a, b) :
+    print("왼쪽:", a)
+    print("오른쪽:", b)
+
+my_print(100,200)
+
+A. 왼쪽: 100, 오른쪽: 200
+
+#230
+아래 코드의 실행 결과를 예측하라.
+
+def my_print (a, b) :
+    print("왼쪽:", a)
+    print("오른쪽:", b)
+
+my_print(b=100, a=200)
+
+A. 왼쪽 : 200, 오른쪽: 100
+
+
