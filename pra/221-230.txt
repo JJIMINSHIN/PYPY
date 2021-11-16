@@ -1,0 +1,89 @@
+#221
+
+def print_reverse(mystr):
+	print(mystring[::-1])
+
+print_reverse("python")
+
+#222
+
+def print_score(scores):  #python list
+	average =(sum(scores)/len(scores))
+	print(average)
+print_score([1,2,3])
+
+#223 
+def print+even(data) :
+	for i in data:
+	  if i % 2 == 0:
+         	     print(i)
+
+print_even([1, 2, 3, 4])
+
+#224
+
+def print_keys(mydic) :
+	keys = mydic.keys()
+	for k in keys:
+		print(k)
+print_keys ({"이름":"김말똥", "나이":30, "성별":0})
+
+#225
+
+my_dict = {"10/26" : [100, 130, 100, 100],
+           "10/27" : [10, 12, 10, 11]}
+	   
+def print_value_by_key(my_dict, key):
+	print(my_dict[key])
+
+print_value_by_key(my_dict, "10/26")
+
+#226
+
+def print_5xn(mystr):
+	times = len(mystr)/5
+	times = int(times)
+	
+	
+	for i in range(times):
+		mystr[5*i: 5*i+5] #[0:5], [5:10]
+		
+pritn_5xn("아이엠어보이유알어걸1")
+
+		
+		
+#227 
+
+def print_mxn(line, num):
+    chunk_num = int(len(line) / num)
+    for x in range(chunk_num + 1) :
+        print(line[x * num: x * num + num])
+
+#228
+def calc_monthly_salary(annual_pay) :
+    monthly_pay = int(annual_pay / 12)
+    return monthly_pay
+    
+#229
+아래 코드의 실행 결과를 예측하라.
+
+def my_print (a, b) :
+    print("왼쪽:", a)
+    print("오른쪽:", b)
+
+my_print(100,200)
+
+A. 왼쪽: 100, 오른쪽: 200
+
+#230
+아래 코드의 실행 결과를 예측하라.
+
+def my_print (a, b) :
+    print("왼쪽:", a)
+    print("오른쪽:", b)
+
+my_print(b=100, a=200)
+
+A. 왼쪽 : 200, 오른쪽: 100
+
+
