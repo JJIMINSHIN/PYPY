@@ -4,3 +4,5 @@ def n_plus_1(n):
     result = n+1
 n_plus_1(3)
 print(result)
+
+함수 안의 변수와 함수 밖의 변수가 서로 다른 공간에 있기때문에 에러 발생
