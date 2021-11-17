@@ -13,3 +13,6 @@ print(result)
 def make_url(str):
     domain = "Www." + str + ".com"
     return domain
+    
+result = make_url("naver")
+print(result)
