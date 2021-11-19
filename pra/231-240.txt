@@ -16,3 +16,13 @@ def make_url(str):
     
 result = make_url("naver")
 print(result)
+
+#233
+
+def make_string(str):
+      my_list = []
+      for i in str:
+          my_list.append(i)
+      return my_list
+      
+print(make_string)
