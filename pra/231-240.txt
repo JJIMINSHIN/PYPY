@@ -26,3 +26,14 @@ def make_string(str):
       return my_list
       
 print(make_string)
+
+#234
+
+def pickup_even(items):
+    result = []
+    for item in items:
+        if item % 2 == 0:
+            result.append(item)
+    return result
+
+print(items)
