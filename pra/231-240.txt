@@ -37,3 +37,11 @@ def pickup_even(items):
     return result
 
 print(items)
+
+#235
+
+def convert_int (str) :
+    return int(string.replace(',', ''))
+convert_int("1,234,567")
+
+1234567
