@@ -45,3 +45,28 @@ def convert_int (str) :
 convert_int("1,234,567")
 
 1234567
+
+#236
+236
+아래 코드의 실행 결과를 예측하라.
+
+def 함수(num) :
+    return num + 4
+
+a = 함수(10) //14
+b = 함수(a) //18
+c = 함수(b) //22
+print(c)
+
+A. 22
+
+#237
+아래 코드의 실행 결과를 예측하라.
+
+def 함수(num) :
+    return num + 4
+
+c = 함수(함수(함수(10)))
+print(c)
+
+A. 22
