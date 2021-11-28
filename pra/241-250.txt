@@ -1,0 +1,6 @@
+#241(시계열 데이터에서 많이 사용)
+
+import datetime
+
+now = datetime.datetime.now()
+print(time) 
