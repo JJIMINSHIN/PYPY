@@ -1,6 +1,15 @@
-#241(시계열 데이터에서 많이 사용)
+#241
+
+import datetime(시계열 데이터에서 많이 사용하는 모듈)
+
+now = datetime.datetime.now()
+print(time) 
+
+#242
+현재시간의 타입
+datetime 모듈의 now 함수의 리턴 값의 타입을 화면에 출력해보세요.
 
 import datetime
 
 now = datetime.datetime.now()
-print(time) 
+print(now, type(now))
