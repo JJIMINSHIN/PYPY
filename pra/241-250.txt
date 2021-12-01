@@ -13,3 +13,27 @@ import datetime
 
 now = datetime.datetime.now()
 print(now, type(now))
+
+#243
+datetime 모듈의 timedelta를 사용해서 오늘로부터 5일, 4일, 3일, 2일, 1일 전의 날짜를 화면에 출력해보세요.
+
+import datetime
+
+now = datetime.datetime.now()
+
+for day in range(5, 0, -1):
+    delta = datetime.timedelta(days=day)
+    date = now - delta
+    print(date)
+
+#244 
+strftime 현재시간을 얻어온 후 다음과 같은 포맷으로 시간을 출력해보세요. strftime 메서드를 사용하세요.
+
+import datetime
+
+now = datetime.datetime.now()
+print(now.strftime("%H:%M:%S"))
+
+#245 
+datetime.datetime.strptime 메서드를 사용하면 문자열 형식의 시간을 datetime.datetime 타입의 시간 값으로 만들어줍니다. "2020-05-04"의 문자열을 시간 타입으로 변환해보세요.
+
