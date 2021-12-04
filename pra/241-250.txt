@@ -41,5 +41,6 @@ datetime.datetime.strptime 메서드를 사용하면 문자열 형식의 시간�
 
 import datetime
 
-now = datetime.datetime.now()
-print(now.strftime("%YYYY%"-"%MM%"-"%DD%")
+day = "2020-05-04"
+ret = datetime.datetime.strptime(day, "%Y-%m-%d")
+print(ret, type(ret))
