@@ -55,3 +55,11 @@ while True:
     now = datetime.datetime.now()
     print(now)
     time.sleep(1)
+
+#247 모듈 임포트
+모듈을 임포트하는 4가지 방식에 대해 설명해보세요.
+
+1) import os                # os.rename()
+2) from os import rename    # rename() 
+3) from os import *         # getcwd(), rename(), ...
+4) import os as myos   # myos.getcwd() 
