@@ -62,4 +62,4 @@ while True:
 1) import os                # os.rename()
 2) from os import rename    # rename() 
 3) from os import *         # getcwd(), rename(), ...
-4) import os as myos   # myos.getcwd() 
+4) import os as myos        # myos.getcwd() 
