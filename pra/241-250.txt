@@ -63,3 +63,7 @@ while True:
 2) from os import rename    # rename() 
 3) from os import *         # getcwd(), rename(), ...
 4) import os as myos        # myos.getcwd() 
+
+#248 os 모듈
+
+os 모듈의 getcwd 함수를 호출하여 현재 디렉터리의 경로를 화면에 출력해보세요.
