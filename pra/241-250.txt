@@ -71,3 +71,10 @@ os 모듈의 getcwd 함수를 호출하여 현재 디렉터리의 경로를 화�
 import os
 ret = os.getcwd()
 print(ret, type(ret))
+
+#249 rename 함수
+
+바탕화면에 텍스트 파일을 하나 생성한 후 os 모듈의 rename 함수를 호출하여 해당 파일의 이름을 변경해보세요.
+
+import os
+os.rename("C:/Users/hyunh/Desktop/before.txt", "C:/Users/hyunh/Desktop/after.txt")
