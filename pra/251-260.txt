@@ -6,3 +6,9 @@
 #252
 class Human:
   pass
+
+#253
+class Human:
+  pass
+ 
+arum = Human()
