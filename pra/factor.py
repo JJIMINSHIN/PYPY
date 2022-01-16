@@ -4,7 +4,7 @@ def solution(left, right):
         c = 0
         for j in range(1, i+1):
             if i % j == 0:
-                c += 1;  #약수면 개수 증가
+                c += 1;  #약수: 개수 증가
         if c % 2 == 0:
             answer += i
         else:
