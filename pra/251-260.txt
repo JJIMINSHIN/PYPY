@@ -40,4 +40,5 @@ class Human:
         self.sex = sex
 
 areum = Human("아름", 25, "여자")
+
 print(areum.age)
