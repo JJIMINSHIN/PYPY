@@ -42,3 +42,7 @@ class Human:
 areum = Human("아름", 25, "여자")
 
 print(areum.age)
+
+
+
+#257
